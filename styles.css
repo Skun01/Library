@@ -1,0 +1,168 @@
+/* reset css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title{
+    margin-bottom: 25px;
+    align-self: center;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+}
+
+.wrapper{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-list{
+    background-color: #ccc;
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    gap: 10px;
+    overflow: auto;
+}
+
+.book{
+    display: flex;
+    width: 90%;
+    border: 3px solid black;
+    border-radius: 15px;
+    background-color: yellow;
+    justify-content: space-around;
+    height: 50px;
+    align-items: center;
+}
+
+
+
+.book .base-infor{
+    display: flex;
+    line-height: 45px;
+    gap: 20px;
+    align-items: center;
+}
+
+.book .isRead{
+    border: 2px solid red;
+    padding: 5px 10px;
+    text-transform:capitalize;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.book .isRead:hover{
+    color: red;
+    background-color: white;
+}
+
+.book .open-book-card{
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+
+.book .open-book-card:hover{
+    background-color: black;
+    color: white;
+}
+
+.book button{
+    height: 60%;
+    outline: none;
+}
+
+.book button:active{
+    opacity: 0.5;
+}
+
+
+.sub-window{
+    width: 400px;
+    left: 50%;
+    top: 8%;
+    transform: translateX(-50%);
+    padding: 5px 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px 10px;
+}
+
+.sub-window img{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    right: 10px;
+    top: 15px;
+}
+
+.sub-window p{
+    width: 190px;
+}
+
+.sub-window .btn-sec{
+    align-self: center;
+    margin-top: 25px;
+}
+
+.sub-window p:last-of-type{
+    width: 100%;
+}
+
+
+.sub-window span{
+    font-style:italic;
+    font-size: 15px;
+}
+
+.add-book-btn{
+    align-self: flex-end;
+}
+
+button{
+    cursor: pointer;
+    padding: 3px 7px;
+}
+
+#display-book-desc{
+    display: none;
+}
+
+#enter-book-infor{
+    display: flex;
+}
+
+#enter-book-infor .input-book-title{
+    align-self: center;
+}
+
+#enter-book-infor input{
+    height: 25px;
+    padding: 5px;
+
+}
+
+/* */

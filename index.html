@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1 class="title">My Library</h1>
+        <div class="book-list">
+            <div class="book">
+                <div class="base-infor">
+                    <p class="book-title">Doreamon</p>
+                    <p class="author">by Fukushiji</p>
+                    <button class="isRead">readed</button>
+                </div>
+                <button class="open-book-card">More detail</button>
+        
+            </div>
+
+            <div class="book">
+                <div class="base-infor">
+                    <p class="book-title">Doreamon</p>
+                    <p class="author">by Fukushiji</p>
+                    <button class="isRead">readed</button>
+                </div>
+                <button class="open-book-card">More detail</button>
+        
+            </div>
+
+            <div class="book">
+                <div class="base-infor">
+                    <p class="book-title">Doreamon</p>
+                    <p class="author">by Fukushiji</p>
+                    <button class="isRead">readed</button>
+                </div>
+                <button class="open-book-card">More detail</button>
+            </div>
+
+            <div class="book">
+                <div class="base-infor">
+                    <p class="book-title">Doreamon</p>
+                    <p class="author">by Fukushiji</p>
+                    <button class="isRead">readed</button>
+                </div>
+                <button class="open-book-card">More detail</button>
+            </div>
+
+            <div class="book">
+                <div class="base-infor">
+                    <p class="book-title">Doreamon</p>
+                    <p class="author">by Fukushiji</p>
+                    <button class="isRead">readed</button>
+                </div>
+                <button class="open-book-card">More detail</button>
+            </div>
+        </div>
+        <button class="add-book-btn">ADD NEW BOOK</button>
+    </div>
+
+    <dialog class="sub-window" id="display-book-desc">
+        <p><b>Name:</b> <span class="name">Doreamon</span></p>
+        <p><b>Author:</b> <span class="author">Fukushiji</span></p>
+        <p><b>Number of pages:</b> <span class="pages">60</span></p>
+        <p><b>Year of release:</b> <span class="release">2004</span></p>
+        <p><b>Description:</b> <span class="book-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo nam tempore facere eos doloribus maxime enim, quasi corporis, quaerat accusamus deserunt possimus optio ipsum autem velit quo vitae laudantium reprehenderit?</span></p>
+        <img src="" alt="">
+        <div class="btn-sec">
+            <button class="cancel">Cancel</button>
+            <button class="remove">Remove</button>
+            <button class="edit">Edit</button>
+        </div>
+    </dialog>
+
+    <dialog class="sub-window" id="enter-book-infor">
+        <h3 class="input-book-title">Enter your book information</h3>
+        <p><label for="input-name"><b>Name:</b></label> <input type="text" id="input-name"></p>
+        <p><label for="input-author"><b>Author:</b></label> <input type="text" id="input-author"></p>
+        <p><label for="input-page"><b>Number of pages:</b></label> <input type="text" id="input-page"></p>
+        <p><label for="input-release"><b>Year of release:</b></label> <input type="text" id="input-release"></p>
+        <p><label for="input-desc-book"><b>Description:</b></label> <input type="text" id="input-desc-book"></p>
+        <label for="book-img"><b>Book's image:</b>  <input type="file" id="book-img"></label>
+        <div class="btn-sec">
+            <button class="cancel">Cancel</button>
+            <button class="remove">Remove</button>
+            <button class="edit">Edit</button>
+        </div>
+    </dialog>
+    <script src="main.js"></script>
+</body>
+</html>
