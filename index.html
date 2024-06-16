@@ -16,7 +16,7 @@
                     <p class="author">by Fukushiji</p>
                     <button class="isRead">readed</button>
                 </div>
-                <button class="open-book-card">More detail</button>
+                <button class="book-detail">More detail</button>
         
             </div>
 
@@ -26,7 +26,7 @@
                     <p class="author">by Fukushiji</p>
                     <button class="isRead">readed</button>
                 </div>
-                <button class="open-book-card">More detail</button>
+                <button class="book-detail">More detail</button>
         
             </div>
 
@@ -36,7 +36,7 @@
                     <p class="author">by Fukushiji</p>
                     <button class="isRead">readed</button>
                 </div>
-                <button class="open-book-card">More detail</button>
+                <button class="book-detail">More detail</button>
             </div>
 
             <div class="book">
@@ -45,7 +45,7 @@
                     <p class="author">by Fukushiji</p>
                     <button class="isRead">readed</button>
                 </div>
-                <button class="open-book-card">More detail</button>
+                <button class="book-detail">More detail</button>
             </div>
 
             <div class="book">
@@ -60,7 +60,7 @@
         <button class="add-book-btn">ADD NEW BOOK</button>
     </div>
 
-    <dialog class="sub-window" id="display-book-desc">
+    <dialog class="sub-window" id="display-book-infor">
         <p><b>Name:</b> <span class="name">Doreamon</span></p>
         <p><b>Author:</b> <span class="author">Fukushiji</span></p>
         <p><b>Number of pages:</b> <span class="pages">60</span></p>
@@ -81,11 +81,11 @@
         <p><label for="input-page"><b>Number of pages:</b></label> <input type="text" id="input-page"></p>
         <p><label for="input-release"><b>Year of release:</b></label> <input type="text" id="input-release"></p>
         <p><label for="input-desc-book"><b>Description:</b></label> <input type="text" id="input-desc-book"></p>
+        <p><label for="readed"><b>Is read:</b></label> <input type="checkbox" id="input-page"></p>
         <label for="book-img"><b>Book's image:</b>  <input type="file" id="book-img"></label>
         <div class="btn-sec">
-            <button class="cancel">Cancel</button>
-            <button class="remove">Remove</button>
-            <button class="edit">Edit</button>
+            <button id="input-cancel">Cancel</button>
+            <button id="input-add">Add</button>
         </div>
     </dialog>
     <script src="main.js"></script>
